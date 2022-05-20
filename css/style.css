@@ -1,0 +1,81 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,800&display=swap');
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background-color: #171717;
+}
+
+h1{
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: 0 auto;
+  /* list-style: none;
+  padding: 0; */
+}
+
+li{
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  color: white;
+  font-size: 22px;
+  text-shadow: 1px 1px 2px black;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 13%
+}
+
+div {
+  width: 30%;
+  height: 300px;
+  outline: 3px solid white;
+  margin: 50px auto;
+  border-radius: 5%;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#violet{
+  background: rgba(148, 0, 211);
+}
+#indigo{
+  background: rgba(75, 0, 130);
+}
+#blue{
+  background: rgba(0, 0, 255);
+}
+#green{
+  background: rgba(0, 255, 0);
+}
+#yellow{
+  background: rgba(255, 255, 0);
+}
+#orange{
+  background: rgba(255, 127, 0);
+}
+#red{
+  background: rgba(255, 0 , 0);
+}
